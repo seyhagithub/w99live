@@ -1,0 +1,211 @@
+@font-face{
+    src: url(../fonts/Anton.ttf);
+    font-family: anton;
+    src: url(../fonts/Pattaya-Regular.ttf);
+    font-family: pattaya;
+}
+
+body{
+    font-family: Tahoma,Arial, Helvetica,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+}
+a{
+	color:#fff !important;
+}
+a:hover{
+	text-decoration: none;
+	color:#fff;
+}
+
+/* ============ header ============*/
+.header{
+	background: #1F1F1F;
+	height: 80px;
+	padding-top: 15px;	
+}
+.btn_login {
+    background: #2a8fbd;
+    color: #fff !important;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: dinpro;
+    height: 25px;
+    line-height: 20px;
+    margin-left: 5px;
+    width: 90px;
+    text-transform: uppercase;
+    border:none;
+}
+.btn_red{
+	 background: #cc001b !important
+}
+
+.header .logo{
+   background: url(../images/logo.jpg) no-repeat;
+   background-size: 89% 80%;
+   height: 60px;
+}
+
+/* ============ Main Menu ============*/
+.mainmenu {
+    height: 46px;
+    background: #2a8fbd;
+    z-index: 400;
+    position: relative;
+   
+}
+.mainmenu li:hover{
+	background: #1c6080;
+}
+.mainmenu li a{
+	font-size: 1em;
+    font-weight: lighter;
+	line-height: 46px;
+}
+.mainmenu li a i{
+    font-size: 1.5em;
+}
+.mainmenu li a .fa-home{
+    font-size: 1.2em;
+}
+.mainmenu li sup{
+	background: red;
+    margin-left: 2px;
+    padding: 1px 3px;
+    font-size: 8px;
+    position: relative;
+    height: 10px;
+    line-height: 10px;
+    margin-left: 2px;
+    float: none !important;
+    left: 0 !important;
+    font-weight: lighter;
+    top:-10px;
+}
+.active{
+    background: #1c6080;
+}
+.slideshow{
+    position: relative;
+    height: 500px;
+}
+.info{
+    padding:30px 0px;
+    background: rgb(31,31,31);
+}
+.info h4{
+    color:#dab867;
+}
+.info img{
+   width: 70%; 
+}
+.info_contact h6{
+    margin: 10px 0px;
+    color: #fff;
+    font-family: Tahoma,Arial, Helvetica,sans-serif;
+}
+.info_contact h4{
+    margin:16px 0px;
+    font-family: Tahoma,Arial, Helvetica,sans-serif;
+}
+.info_contact p{
+    
+    line-height: 22px;
+    font-size: 12px;
+    color: #adadad;
+}
+.content_info{
+   
+    background: url(../images/line_gray.png) no-repeat 0px 100px;
+    
+}
+.info_mid h6{
+    margin:30px 0px;
+}
+.jackpot{
+   
+    background: url(../images/jackpot.jpg) no-repeat center center;
+    height: 110px;
+    background-size:90% 100%;
+}
+
+.footer{
+    padding:20px 0px;
+    color: #4a4a4a !important;
+}
+.footer h5{
+    text-align: left;
+    margin:15px 0px;
+    font-weight: bold;
+    font-size: 1em;
+}
+.footer p{
+    text-align: left;
+    font-weight: lighter;
+    font-size: 12px;
+    line-height: 20px;
+}
+.footer_line{
+    background: url(../images/footer_line.gif) repeat-x;
+    height: 5px;
+    margin: 10px 0px;
+}
+.icon-footer h6{
+    text-align: left;
+    margin:10px 0px;
+    
+}
+.icon-footer i{
+    font-size: 2.5em;
+    padding:0px 4px;
+}
+.footer-bottom i{
+    padding:0px 4px;
+}
+.footer-bottom h6{
+    margin:10px 0px;
+}
+/* ============ progressive_jackpot ============*/
+#progressive_jackpot{
+    font-family: anton !important;
+    color:#2A8FBD !important;
+}
+/* ============ progressive_jackpot ============*/
+.time-frame {
+    margin:5px 0px;
+    color: #808080;
+    font-family: Tahoma,Arial, Helvetica,sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+.time-frame > div {
+    
+}
+
+#date-part {
+    font-size: 12px;
+}
+#time-part {
+    font-size: 12px;
+}
+#time-zone {
+    font-size: 12px;
+}
+/* ============ Media Object Image ============*/
+.media-object{
+    margin-top: 10px !important;
+    width:30px !important;
+}
+.media-body h4 {
+    color: #adadad !important;
+    
+}
+.media-body span{
+    color:#2A8FBD !important;
+}
+.m-t-2 {
+    margin-top: 0.6rem!important;
+}
